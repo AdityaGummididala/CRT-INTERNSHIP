@@ -30,3 +30,10 @@ let musicprogress=document.getElementById("music-progress");
                     ctrlIcon.classList.add("fa-pause");
                     ctrlIcon.classList.remove("fa-play");
                 }
+                    function forward() {
+                        song.currentTime += 5.0;
+                    }
+                   function backward()
+                   {
+                    song.currentTime -= 5.0;
+                   }
